@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(135, 146, 163);
+}
+main {
+  margin: 20px;
+}
+
+.container {
+  background-image: linear-gradient(rgba(55, 65, 81, 0.795),rgb(30, 34, 39));
+  margin: 10px;
+  width: 200px;
+  color: white;
+  display: inline-block;
+  border: 4px solid black;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.tela {
+  min-height: 80vh;
+}
